@@ -13,19 +13,6 @@ library(rsconnect)
 
 
 
-
-# host <- "database-biomarin.cse6sl9rluei.us-east-2.rds.amazonaws.com"
-# port <- 3306
-# dbname <- "biomarin"
-# user <- "admin"
-# password <- "Biomarin22"
-# 
-# con <- DBI::dbConnect(
-#     RMySQL::MySQL(),
-#     host = host , port = port , dbname = dbname,
-#     user = user, password = password
-# )
-
 # dbCreateTable(con,"iris", iris)
 # 
 #dbWriteTable(con,"iris",iris, row.names = FALSE, overwrite = TRUE)
